@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="School" Class="CourseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-OFDC7KC\SQLEXPRESS;Initial Catalog=School;Integrated Security=True" SettingsObjectName="Course.Properties.Settings" SettingsPropertyName="SchoolConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Students" Member="Students">
+    <Type Name="Student">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fullname" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="group_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Group_Student" Member="Group" ThisKey="group_id" OtherKey="id" Type="Group" IsForeignKey="true" />
+      <Association Name="Group_Student1" Member="Group1" ThisKey="group_id" OtherKey="id" Type="Group" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Groups" Member="Groups">
+    <Type Name="Group">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Group_Student" Member="Students" ThisKey="id" OtherKey="group_id" Type="Student" />
+      <Association Name="Group_Student1" Member="Students1" ThisKey="id" OtherKey="group_id" Type="Student" />
+    </Type>
+  </Table>
+</Database>

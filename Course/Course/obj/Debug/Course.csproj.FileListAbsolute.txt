@@ -1,0 +1,9 @@
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\bin\Debug\Course.exe.config
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\bin\Debug\Course.exe
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\bin\Debug\Course.pdb
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\obj\Debug\Course.csprojResolveAssemblyReference.cache
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\obj\Debug\Course.Form1.resources
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\obj\Debug\Course.Properties.Resources.resources
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\obj\Debug\Course.csproj.GenerateResource.Cache
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\obj\Debug\Course.exe
+c:\users\adel\documents\visual studio 2017\Projects\Course\Course\obj\Debug\Course.pdb
